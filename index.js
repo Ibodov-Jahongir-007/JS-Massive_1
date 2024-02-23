@@ -17,8 +17,10 @@ if (answer === -1) {
   'pls type name from list'
   )
 } else {
-  users.splice(res , 1)
+  users.splice(answer , 1)
 }
+
+console.log(users);
 
 
 // users.splice(idx,1)
